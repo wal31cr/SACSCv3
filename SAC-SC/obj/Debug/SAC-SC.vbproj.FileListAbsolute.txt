@@ -1,0 +1,283 @@
+C:\Users\Pablo\AppData\Local\Temporary Projects\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\bin\Debug\SAC-SC.exe
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\bin\Debug\SAC-SC.pdb
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\bin\Debug\SAC-SC.xml
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC-SC.vbprojResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Resources.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC-SC.exe
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC-SC.xml
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC-SC.pdb
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Inicio.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Facturacion.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.MenuPrincipal.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionInsertarCodigo.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCredito.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCreditoBloqueado.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionEfectivo.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionFactura.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Abonos.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.AbonosExito.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Inventario.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioAgregar.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioModificar.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Distribuidores.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresAgregar.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresModificar.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Usuarios.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCliente.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC-SC.exe
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC-SC.xml
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC-SC.pdb
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\bin\Debug\SAC-SC.exe
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\bin\Debug\SAC-SC.pdb
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\bin\Debug\SAC-SC.xml
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC-SC.vbprojResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Abonos.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.AbonosExito.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Distribuidores.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresAgregar.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresModificar.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCliente.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCredito.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCreditoBloqueado.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionEfectivo.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionFactura.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionInsertarCodigo.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Inicio.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Inventario.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioAgregar.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioModificar.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.MenuPrincipal.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Facturacion.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Resources.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Usuarios.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
+C:\Users\Pablo\Desktop\Pablo\U\VII Ciclo\Ingenieria III\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionProducto.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC-SC.exe
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC-SC.xml
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC-SC.pdb
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\bin\Debug\SAC-SC.exe
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\bin\Debug\SAC-SC.pdb
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\bin\Debug\SAC-SC.xml
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC-SC.vbprojResolveAssemblyReference.cache
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Abonos.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.AbonosExito.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Distribuidores.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresAgregar.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresModificar.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCliente.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCredito.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCreditoBloqueado.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionEfectivo.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionFactura.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionInsertarCodigo.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionProducto.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Inicio.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Inventario.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioAgregar.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioModificar.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.MenuPrincipal.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Facturacion.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Resources.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Usuarios.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
+C:\Users\Jose\Desktop\SAC-SC_v3 _PABLO\SAC-SC\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC_v3.1\SAC-SC_v3.1\SAC-SC\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC_v3.1\SAC-SC_v3.1\SAC-SC\SAC-SC\obj\Debug\SAC-SC.exe
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC_v3.1\SAC-SC_v3.1\SAC-SC\SAC-SC\obj\Debug\SAC-SC.xml
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC_v3.1\SAC-SC_v3.1\SAC-SC\SAC-SC\obj\Debug\SAC-SC.pdb
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC-SC.exe
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC-SC.xml
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC-SC.pdb
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\bin\Debug\SAC-SC.exe
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\bin\Debug\SAC-SC.pdb
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\bin\Debug\SAC-SC.xml
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC-SC.vbprojResolveAssemblyReference.cache
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Abonos.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.AbonosExito.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Distribuidores.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresAgregar.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresModificar.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCliente.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCredito.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCreditoBloqueado.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionEfectivo.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionFactura.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionInsertarCodigo.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionProducto.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Inicio.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Inventario.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioAgregar.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioModificar.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.MenuPrincipal.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Facturacion.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Resources.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Usuarios.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosDetalle.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioCompras.resources
+C:\Users\Jose\Documents\GitHub\SAC-SC\SAC-SC\obj\Debug\SAC_SC.ComprasInventario.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.ComprasInventario.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionProducto.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioCompras.resources
+C:\Users\Pablo\Desktop\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosDetalle.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC-SC.exe
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC-SC.xml
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC-SC.pdb
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\bin\Debug\SAC-SC.exe
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\bin\Debug\SAC-SC.pdb
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\bin\Debug\SAC-SC.xml
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC-SC.vbprojResolveAssemblyReference.cache
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Abonos.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.AbonosExito.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.ComprasInventario.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Distribuidores.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresAgregar.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresModificar.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCliente.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCredito.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionCreditoBloqueado.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionEfectivo.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionFactura.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionInsertarCodigo.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.FacturacionProducto.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioCompras.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosDetalle.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Inicio.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Inventario.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioAgregar.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.InventarioModificar.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.MenuPrincipal.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Facturacion.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Resources.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.Usuarios.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SAC-SC 31 03 16\SAC-SC\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC-SC.exe
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC-SC.xml
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC-SC.pdb
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\bin\Debug\SAC-SC.exe
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\bin\Debug\SAC-SC.pdb
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\bin\Debug\SAC-SC.xml
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC-SC.vbprojResolveAssemblyReference.cache
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Abonos.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.AbonosExito.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.ComprasInventario.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Distribuidores.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresAgregar.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresModificar.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionCliente.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionCredito.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionCreditoBloqueado.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionEfectivo.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionFactura.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionInsertarCodigo.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionProducto.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.InventarioCompras.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosDetalle.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Inicio.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Inventario.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.InventarioAgregar.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.InventarioModificar.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.MenuPrincipal.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Facturacion.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Resources.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Usuarios.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.nuevoProductoFactura.resources
+C:\Users\Jose\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.ProductoModificar.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC-SC.exe
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC-SC.xml
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC-SC.pdb
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\bin\Debug\SAC-SC.exe
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\bin\Debug\SAC-SC.pdb
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\bin\Debug\SAC-SC.xml
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC-SC.vbprojResolveAssemblyReference.cache
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Abonos.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.AbonosExito.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.ComprasInventario.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Distribuidores.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresAgregar.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresModificar.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionCliente.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionCredito.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionCreditoBloqueado.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionEfectivo.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionFactura.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionInsertarCodigo.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionProducto.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.InventarioCompras.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.nuevoProductoFactura.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.ProductoModificar.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosDetalle.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Inicio.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Inventario.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.MenuPrincipal.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Facturacion.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Resources.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.Usuarios.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.DistDetalle.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.EnviarCorreo.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionAbono.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionTipo.resources
+C:\Users\Walter\Documents\GitHub\SACSC\SAC-SC\obj\Debug\SAC_SC.ModificarOrdenCliente.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC-SC.exe
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC-SC.xml
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC-SC.pdb
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\bin\Debug\SAC-SC.exe
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\bin\Debug\SAC-SC.pdb
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\bin\Debug\SAC-SC.xml
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC-SC.vbprojResolveAssemblyReference.cache
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.Abonos.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.AbonosExito.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.ComprasInventario.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.DistDetalle.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.Distribuidores.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresAgregar.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.DistribuidoresModificar.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.EnviarCorreo.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionAbono.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionCliente.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionCredito.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionCreditoBloqueado.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionEfectivo.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionFactura.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionInsertarCodigo.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionProducto.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.FacturacionTipo.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.InventarioCompras.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.ModificarOrdenCliente.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.nuevoProductoFactura.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.ProductoModificar.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosDetalle.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.Inicio.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.Inventario.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.MenuPrincipal.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.Facturacion.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.Resources.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.Usuarios.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
+C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
