@@ -45,6 +45,7 @@ Partial Class nuevoProductoFactura
         Me.Label_precioSugerido = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
+        Me.SkinEngine2 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -250,6 +251,12 @@ Partial Class nuevoProductoFactura
         Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\Midsummer.ssk"
         Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
         '
+        'SkinEngine2
+        '
+        Me.SkinEngine2.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
+        Me.SkinEngine2.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\MidsummerColor1.ssk"
+        Me.SkinEngine2.SkinStreamMain = CType(resources.GetObject("SkinEngine2.SkinStreamMain"), System.IO.Stream)
+        '
         'nuevoProductoFactura
         '
         Me.AcceptButton = Me.Button_guardar
@@ -310,4 +317,5 @@ Partial Class nuevoProductoFactura
     Friend WithEvents Label_precioSugerido As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
+    Friend WithEvents SkinEngine2 As Sunisoft.IrisSkin.SkinEngine
 End Class

@@ -44,6 +44,7 @@ Partial Class ModificarOrdenCliente
         Me.Button_guardar = New System.Windows.Forms.Button()
         Me.Button_cancelar = New System.Windows.Forms.Button()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
         Me.ContextMenuStrip1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -243,6 +244,12 @@ Partial Class ModificarOrdenCliente
         Me.PictureBox2.TabIndex = 144
         Me.PictureBox2.TabStop = False
         '
+        'SkinEngine1
+        '
+        Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
+        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\MidsummerColor1.ssk"
+        Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
+        '
         'ModificarOrdenCliente
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -299,4 +306,5 @@ Partial Class ModificarOrdenCliente
     Friend WithEvents Button_guardar As Button
     Friend WithEvents Button_cancelar As Button
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
 End Class

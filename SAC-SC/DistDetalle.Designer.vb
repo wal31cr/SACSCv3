@@ -166,7 +166,7 @@ Partial Class DistDetalle
         Me.txtEmp.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.txtEmp.Enabled = False
         Me.txtEmp.Location = New System.Drawing.Point(113, 155)
-        Me.txtEmp.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtEmp.Margin = New System.Windows.Forms.Padding(2)
         Me.txtEmp.Name = "txtEmp"
         Me.txtEmp.Size = New System.Drawing.Size(194, 20)
         Me.txtEmp.TabIndex = 99
@@ -176,7 +176,7 @@ Partial Class DistDetalle
         Me.txtCont.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.txtCont.Enabled = False
         Me.txtCont.Location = New System.Drawing.Point(113, 211)
-        Me.txtCont.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCont.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCont.Name = "txtCont"
         Me.txtCont.Size = New System.Drawing.Size(194, 20)
         Me.txtCont.TabIndex = 100
@@ -186,7 +186,7 @@ Partial Class DistDetalle
         Me.txtTelf.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.txtTelf.Enabled = False
         Me.txtTelf.Location = New System.Drawing.Point(113, 264)
-        Me.txtTelf.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTelf.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTelf.Name = "txtTelf"
         Me.txtTelf.Size = New System.Drawing.Size(194, 20)
         Me.txtTelf.TabIndex = 101
@@ -196,7 +196,7 @@ Partial Class DistDetalle
         Me.txtDir.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.txtDir.Enabled = False
         Me.txtDir.Location = New System.Drawing.Point(113, 323)
-        Me.txtDir.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDir.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDir.Multiline = True
         Me.txtDir.Name = "txtDir"
         Me.txtDir.Size = New System.Drawing.Size(222, 77)
@@ -217,7 +217,7 @@ Partial Class DistDetalle
         '
         Me.btnCerrar.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.btnCerrar.Location = New System.Drawing.Point(13, 476)
-        Me.btnCerrar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnCerrar.Margin = New System.Windows.Forms.Padding(2)
         Me.btnCerrar.Name = "btnCerrar"
         Me.btnCerrar.Size = New System.Drawing.Size(107, 47)
         Me.btnCerrar.TabIndex = 105
@@ -247,7 +247,7 @@ Partial Class DistDetalle
         'SkinEngine1
         '
         Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
-        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\Midsummer.ssk"
+        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\MidsummerColor1.ssk"
         Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
         '
         'DistDetalle
@@ -275,7 +275,7 @@ Partial Class DistDetalle
         Me.Controls.Add(Me.lvDetalles)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "DistDetalle"

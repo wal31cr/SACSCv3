@@ -109,7 +109,7 @@ Partial Class Distribuidores
         Me.cmbFiltro.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbFiltro.FormattingEnabled = True
         Me.cmbFiltro.Location = New System.Drawing.Point(724, 120)
-        Me.cmbFiltro.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cmbFiltro.Margin = New System.Windows.Forms.Padding(2)
         Me.cmbFiltro.Name = "cmbFiltro"
         Me.cmbFiltro.Size = New System.Drawing.Size(123, 21)
         Me.cmbFiltro.TabIndex = 47
@@ -122,7 +122,7 @@ Partial Class Distribuidores
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lvDistribuidores.CheckBoxes = True
         Me.lvDistribuidores.Location = New System.Drawing.Point(14, 145)
-        Me.lvDistribuidores.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.lvDistribuidores.Margin = New System.Windows.Forms.Padding(2)
         Me.lvDistribuidores.MultiSelect = False
         Me.lvDistribuidores.Name = "lvDistribuidores"
         Me.lvDistribuidores.Scrollable = False
@@ -172,7 +172,7 @@ Partial Class Distribuidores
         'SkinEngine1
         '
         Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
-        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\Midsummer.ssk"
+        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\MidsummerColor1.ssk"
         Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
         '
         'Distribuidores
