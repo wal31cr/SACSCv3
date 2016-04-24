@@ -33,15 +33,16 @@ Partial Class DistDetalle
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Date_Final = New System.Windows.Forms.DateTimePicker()
         Me.lvDetalles = New System.Windows.Forms.ListView()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.txtEmp = New System.Windows.Forms.TextBox()
         Me.txtCont = New System.Windows.Forms.TextBox()
         Me.txtTelf = New System.Windows.Forms.TextBox()
         Me.txtDir = New System.Windows.Forms.TextBox()
         Me.lblDetalle = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.btnCerrar = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label13
@@ -49,10 +50,9 @@ Partial Class DistDetalle
         Me.Label13.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(13, 397)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label13.Location = New System.Drawing.Point(10, 323)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(102, 20)
+        Me.Label13.Size = New System.Drawing.Size(82, 16)
         Me.Label13.TabIndex = 98
         Me.Label13.Text = "Direccion: "
         '
@@ -62,10 +62,9 @@ Partial Class DistDetalle
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(-94, 239)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label12.Location = New System.Drawing.Point(-70, 194)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(68, 20)
+        Me.Label12.Size = New System.Drawing.Size(55, 16)
         Me.Label12.TabIndex = 97
         Me.Label12.Text = "Email: "
         '
@@ -74,10 +73,9 @@ Partial Class DistDetalle
         Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(13, 325)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(10, 264)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(130, 20)
+        Me.Label7.Size = New System.Drawing.Size(106, 16)
         Me.Label7.TabIndex = 96
         Me.Label7.Text = "# de telefono: "
         '
@@ -86,10 +84,9 @@ Partial Class DistDetalle
         Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(13, 260)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(10, 211)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(96, 20)
+        Me.Label5.Size = New System.Drawing.Size(77, 16)
         Me.Label5.TabIndex = 95
         Me.Label5.Text = "Contacto: "
         '
@@ -98,10 +95,9 @@ Partial Class DistDetalle
         Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(13, 191)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Location = New System.Drawing.Point(10, 155)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(95, 20)
+        Me.Label10.Size = New System.Drawing.Size(78, 16)
         Me.Label10.TabIndex = 94
         Me.Label10.Text = "Empresa: "
         '
@@ -111,10 +107,9 @@ Partial Class DistDetalle
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(477, 191)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(358, 155)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(56, 18)
+        Me.Label4.Size = New System.Drawing.Size(47, 15)
         Me.Label4.TabIndex = 92
         Me.Label4.Text = "desde: "
         '
@@ -123,10 +118,9 @@ Partial Class DistDetalle
         Me.Date_Inicio.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Date_Inicio.CustomFormat = "dd/MM/yyyy"
-        Me.Date_Inicio.Location = New System.Drawing.Point(548, 191)
-        Me.Date_Inicio.Margin = New System.Windows.Forms.Padding(4)
+        Me.Date_Inicio.Location = New System.Drawing.Point(411, 155)
         Me.Date_Inicio.Name = "Date_Inicio"
-        Me.Date_Inicio.Size = New System.Drawing.Size(131, 22)
+        Me.Date_Inicio.Size = New System.Drawing.Size(99, 20)
         Me.Date_Inicio.TabIndex = 91
         Me.Date_Inicio.Value = New Date(2016, 3, 12, 0, 0, 0, 0)
         '
@@ -136,10 +130,9 @@ Partial Class DistDetalle
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(688, 191)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(516, 155)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(52, 18)
+        Me.Label3.Size = New System.Drawing.Size(43, 15)
         Me.Label3.TabIndex = 90
         Me.Label3.Text = "hasta: "
         '
@@ -148,11 +141,10 @@ Partial Class DistDetalle
         Me.Date_Final.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Date_Final.CustomFormat = "dd/MM/yyyy"
-        Me.Date_Final.Location = New System.Drawing.Point(753, 191)
-        Me.Date_Final.Margin = New System.Windows.Forms.Padding(4)
+        Me.Date_Final.Location = New System.Drawing.Point(565, 155)
         Me.Date_Final.MaxDate = New Date(9998, 3, 12, 0, 0, 0, 0)
         Me.Date_Final.Name = "Date_Final"
-        Me.Date_Final.Size = New System.Drawing.Size(131, 22)
+        Me.Date_Final.Size = New System.Drawing.Size(99, 20)
         Me.Date_Final.TabIndex = 89
         Me.Date_Final.Value = New Date(2016, 3, 10, 0, 0, 0, 0)
         '
@@ -163,115 +155,109 @@ Partial Class DistDetalle
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lvDetalles.FullRowSelect = True
-        Me.lvDetalles.Location = New System.Drawing.Point(478, 224)
-        Me.lvDetalles.Margin = New System.Windows.Forms.Padding(4)
+        Me.lvDetalles.Location = New System.Drawing.Point(358, 182)
         Me.lvDetalles.Name = "lvDetalles"
-        Me.lvDetalles.Size = New System.Drawing.Size(816, 395)
+        Me.lvDetalles.Size = New System.Drawing.Size(613, 322)
         Me.lvDetalles.TabIndex = 88
         Me.lvDetalles.UseCompatibleStateImageBehavior = False
-        '
-        'Label2
-        '
-        Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold)
-        Me.Label2.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.Label2.Location = New System.Drawing.Point(478, 38)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(262, 69)
-        Me.Label2.TabIndex = 87
-        Me.Label2.Text = "SAC-SC"
-        '
-        'Label1
-        '
-        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
-        Me.Label1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.Label1.Location = New System.Drawing.Point(329, 9)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(607, 29)
-        Me.Label1.TabIndex = 86
-        Me.Label1.Text = "Sistema Administrador de Comedores del Servicio Civil"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'txtEmp
         '
         Me.txtEmp.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.txtEmp.Enabled = False
-        Me.txtEmp.Location = New System.Drawing.Point(151, 191)
+        Me.txtEmp.Location = New System.Drawing.Point(113, 155)
+        Me.txtEmp.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtEmp.Name = "txtEmp"
-        Me.txtEmp.Size = New System.Drawing.Size(258, 22)
+        Me.txtEmp.Size = New System.Drawing.Size(194, 20)
         Me.txtEmp.TabIndex = 99
         '
         'txtCont
         '
         Me.txtCont.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.txtCont.Enabled = False
-        Me.txtCont.Location = New System.Drawing.Point(151, 260)
+        Me.txtCont.Location = New System.Drawing.Point(113, 211)
+        Me.txtCont.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtCont.Name = "txtCont"
-        Me.txtCont.Size = New System.Drawing.Size(258, 22)
+        Me.txtCont.Size = New System.Drawing.Size(194, 20)
         Me.txtCont.TabIndex = 100
         '
         'txtTelf
         '
         Me.txtTelf.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.txtTelf.Enabled = False
-        Me.txtTelf.Location = New System.Drawing.Point(151, 325)
+        Me.txtTelf.Location = New System.Drawing.Point(113, 264)
+        Me.txtTelf.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtTelf.Name = "txtTelf"
-        Me.txtTelf.Size = New System.Drawing.Size(258, 22)
+        Me.txtTelf.Size = New System.Drawing.Size(194, 20)
         Me.txtTelf.TabIndex = 101
         '
         'txtDir
         '
         Me.txtDir.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.txtDir.Enabled = False
-        Me.txtDir.Location = New System.Drawing.Point(151, 397)
+        Me.txtDir.Location = New System.Drawing.Point(113, 323)
+        Me.txtDir.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtDir.Multiline = True
         Me.txtDir.Name = "txtDir"
-        Me.txtDir.Size = New System.Drawing.Size(294, 94)
+        Me.txtDir.Size = New System.Drawing.Size(222, 77)
         Me.txtDir.TabIndex = 102
         '
         'lblDetalle
         '
         Me.lblDetalle.AutoSize = True
         Me.lblDetalle.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDetalle.Location = New System.Drawing.Point(473, 123)
+        Me.lblDetalle.Location = New System.Drawing.Point(354, 128)
+        Me.lblDetalle.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblDetalle.Name = "lblDetalle"
-        Me.lblDetalle.Size = New System.Drawing.Size(362, 29)
+        Me.lblDetalle.Size = New System.Drawing.Size(280, 24)
         Me.lblDetalle.TabIndex = 103
         Me.lblDetalle.Text = "Detalle de compras a distribudor"
-        '
-        'Label6
-        '
-        Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(12, 123)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(242, 29)
-        Me.Label6.TabIndex = 104
-        Me.Label6.Text = "Datos del distribuidor"
         '
         'btnCerrar
         '
         Me.btnCerrar.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.btnCerrar.Location = New System.Drawing.Point(17, 586)
+        Me.btnCerrar.Location = New System.Drawing.Point(13, 476)
+        Me.btnCerrar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnCerrar.Name = "btnCerrar"
-        Me.btnCerrar.Size = New System.Drawing.Size(143, 58)
+        Me.btnCerrar.Size = New System.Drawing.Size(107, 47)
         Me.btnCerrar.TabIndex = 105
         Me.btnCerrar.Text = "Volver"
         Me.btnCerrar.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Calibri", 36.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label1.Location = New System.Drawing.Point(199, 27)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(458, 59)
+        Me.Label1.TabIndex = 106
+        Me.Label1.Text = "Datos del Distribuidor"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(253, 102)
+        Me.PictureBox1.TabIndex = 107
+        Me.PictureBox1.TabStop = False
+        '
+        'SkinEngine1
+        '
+        Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
+        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\Midsummer.ssk"
+        Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
+        '
         'DistDetalle
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1307, 672)
+        Me.ClientSize = New System.Drawing.Size(980, 546)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnCerrar)
-        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.lblDetalle)
         Me.Controls.Add(Me.txtDir)
         Me.Controls.Add(Me.txtTelf)
@@ -287,14 +273,14 @@ Partial Class DistDetalle
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Date_Final)
         Me.Controls.Add(Me.lvDetalles)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "DistDetalle"
         Me.Text = "Detalle Distribuidor"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -310,13 +296,13 @@ Partial Class DistDetalle
     Friend WithEvents Label3 As Label
     Friend WithEvents Date_Final As DateTimePicker
     Friend WithEvents lvDetalles As ListView
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents txtEmp As TextBox
     Friend WithEvents txtCont As TextBox
     Friend WithEvents txtTelf As TextBox
     Friend WithEvents txtDir As TextBox
     Friend WithEvents lblDetalle As Label
-    Friend WithEvents Label6 As Label
     Friend WithEvents btnCerrar As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
 End Class

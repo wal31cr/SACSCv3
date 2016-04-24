@@ -43,17 +43,19 @@ Partial Class ModificarOrdenCliente
         Me.Label_TotalDetalle = New System.Windows.Forms.Label()
         Me.Button_guardar = New System.Windows.Forms.Button()
         Me.Button_cancelar = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.ContextMenuStrip1.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label_orden
         '
         Me.Label_orden.AutoSize = True
-        Me.Label_orden.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label_orden.Font = New System.Drawing.Font("Calibri", 36.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label_orden.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Label_orden.Location = New System.Drawing.Point(29, 20)
+        Me.Label_orden.Location = New System.Drawing.Point(199, 27)
         Me.Label_orden.Name = "Label_orden"
-        Me.Label_orden.Size = New System.Drawing.Size(143, 31)
+        Me.Label_orden.Size = New System.Drawing.Size(218, 59)
         Me.Label_orden.TabIndex = 122
         Me.Label_orden.Text = "Orden N° "
         '
@@ -151,7 +153,7 @@ Partial Class ModificarOrdenCliente
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(32, 75)
+        Me.Label3.Location = New System.Drawing.Point(35, 115)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(76, 15)
         Me.Label3.TabIndex = 123
@@ -161,7 +163,7 @@ Partial Class ModificarOrdenCliente
         '
         Me.Label_vendedor.AutoSize = True
         Me.Label_vendedor.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label_vendedor.Location = New System.Drawing.Point(125, 75)
+        Me.Label_vendedor.Location = New System.Drawing.Point(128, 115)
         Me.Label_vendedor.Name = "Label_vendedor"
         Me.Label_vendedor.Size = New System.Drawing.Size(76, 15)
         Me.Label_vendedor.TabIndex = 124
@@ -171,7 +173,7 @@ Partial Class ModificarOrdenCliente
         '
         Me.Label_cliente.AutoSize = True
         Me.Label_cliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label_cliente.Location = New System.Drawing.Point(125, 116)
+        Me.Label_cliente.Location = New System.Drawing.Point(313, 115)
         Me.Label_cliente.Name = "Label_cliente"
         Me.Label_cliente.Size = New System.Drawing.Size(60, 15)
         Me.Label_cliente.TabIndex = 135
@@ -181,7 +183,7 @@ Partial Class ModificarOrdenCliente
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(32, 116)
+        Me.Label4.Location = New System.Drawing.Point(220, 115)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(60, 15)
         Me.Label4.TabIndex = 134
@@ -232,11 +234,21 @@ Partial Class ModificarOrdenCliente
         Me.Button_cancelar.Text = "Cancelar"
         Me.Button_cancelar.UseVisualStyleBackColor = False
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(204, 102)
+        Me.PictureBox2.TabIndex = 144
+        Me.PictureBox2.TabStop = False
+        '
         'ModificarOrdenCliente
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(659, 553)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Button_cancelar)
         Me.Controls.Add(Me.Button_guardar)
         Me.Controls.Add(Me.Label_TotalDetalle)
@@ -261,6 +273,7 @@ Partial Class ModificarOrdenCliente
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "ModificarOrdenCliente"
         Me.ContextMenuStrip1.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -285,4 +298,5 @@ Partial Class ModificarOrdenCliente
     Friend WithEvents Label_TotalDetalle As Label
     Friend WithEvents Button_guardar As Button
     Friend WithEvents Button_cancelar As Button
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

@@ -23,8 +23,6 @@ Partial Class UsuariosDetalle
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UsuariosDetalle))
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.Date_Final = New System.Windows.Forms.DateTimePicker()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -50,33 +48,12 @@ Partial Class UsuariosDetalle
         Me.Btn_Modificar = New System.Windows.Forms.Button()
         Me.Pb_estado = New System.Windows.Forms.PictureBox()
         Me.Btn_menuPrincipal = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
         CType(Me.Pb_estado, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Label2
-        '
-        Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold)
-        Me.Label2.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.Label2.Location = New System.Drawing.Point(344, 44)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(212, 55)
-        Me.Label2.TabIndex = 58
-        Me.Label2.Text = "SAC-SC"
-        '
-        'Label1
-        '
-        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
-        Me.Label1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.Label1.Location = New System.Drawing.Point(223, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(470, 24)
-        Me.Label1.TabIndex = 57
-        Me.Label1.Text = "Sistema Administrador de Comedores del Servicio Civil"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'ListView1
         '
@@ -142,7 +119,7 @@ Partial Class UsuariosDetalle
         '
         Me.ComboBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(644, 78)
+        Me.ComboBox1.Location = New System.Drawing.Point(692, 81)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(155, 21)
         Me.ComboBox1.TabIndex = 65
@@ -339,7 +316,7 @@ Partial Class UsuariosDetalle
         Me.Btn_Modificar.FlatAppearance.BorderColor = System.Drawing.Color.LawnGreen
         Me.Btn_Modificar.FlatAppearance.BorderSize = 3
         Me.Btn_Modificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn_Modificar.Location = New System.Drawing.Point(35, 44)
+        Me.Btn_Modificar.Location = New System.Drawing.Point(35, 111)
         Me.Btn_Modificar.Name = "Btn_Modificar"
         Me.Btn_Modificar.Size = New System.Drawing.Size(126, 45)
         Me.Btn_Modificar.TabIndex = 90
@@ -366,11 +343,40 @@ Partial Class UsuariosDetalle
         Me.Btn_menuPrincipal.Text = "Menú Principal"
         Me.Btn_menuPrincipal.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Calibri", 36.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
+        Me.Label1.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label1.Location = New System.Drawing.Point(199, 27)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(393, 59)
+        Me.Label1.TabIndex = 153
+        Me.Label1.Text = "Detalle de Usuario"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(204, 102)
+        Me.PictureBox2.TabIndex = 152
+        Me.PictureBox2.TabStop = False
+        '
+        'SkinEngine1
+        '
+        Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
+        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\Midsummer.ssk"
+        Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
+        '
         'UsuariosDetalle
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(866, 589)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Btn_menuPrincipal)
         Me.Controls.Add(Me.Pb_estado)
         Me.Controls.Add(Me.Btn_Modificar)
@@ -396,21 +402,17 @@ Partial Class UsuariosDetalle
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Date_Final)
         Me.Controls.Add(Me.ListView1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MinimumSize = New System.Drawing.Size(882, 554)
         Me.Name = "UsuariosDetalle"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Detalles de Usuario"
         CType(Me.Pb_estado, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents ListView1 As ListView
     Friend WithEvents Date_Final As DateTimePicker
     Friend WithEvents Label3 As Label
@@ -436,4 +438,7 @@ Partial Class UsuariosDetalle
     Friend WithEvents Btn_Modificar As Button
     Friend WithEvents Pb_estado As PictureBox
     Friend WithEvents Btn_menuPrincipal As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
 End Class

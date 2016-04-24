@@ -27,8 +27,6 @@ Partial Class Abonos
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -43,15 +41,18 @@ Partial Class Abonos
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(22, 103)
+        Me.Label8.Font = New System.Drawing.Font("Calibri", 36.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(199, 27)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(76, 24)
+        Me.Label8.Size = New System.Drawing.Size(173, 59)
         Me.Label8.TabIndex = 26
         Me.Label8.Text = "Abonos"
         '
@@ -84,26 +85,6 @@ Partial Class Abonos
         Me.Label3.Size = New System.Drawing.Size(86, 16)
         Me.Label3.TabIndex = 23
         Me.Label3.Text = "Identificación"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(258, 52)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(212, 55)
-        Me.Label2.TabIndex = 22
-        Me.Label2.Text = "SAC-SC"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(137, 17)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(470, 24)
-        Me.Label1.TabIndex = 21
-        Me.Label1.Text = "Sistema Administrador de Comedores del Servicio Civil"
         '
         'Button1
         '
@@ -235,11 +216,28 @@ Partial Class Abonos
         Me.Label11.TabIndex = 42
         Me.Label11.Text = "Presione la tecla enter para buscar al usuario"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(253, 102)
+        Me.PictureBox1.TabIndex = 43
+        Me.PictureBox1.TabStop = False
+        '
+        'SkinEngine1
+        '
+        Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
+        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\Midsummer.ssk"
+        Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
+        '
         'Abonos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(718, 515)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.TextBox7)
         Me.Controls.Add(Me.Label7)
@@ -253,17 +251,15 @@ Partial Class Abonos
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Abonos"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Abonos"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -273,8 +269,6 @@ Partial Class Abonos
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Label6 As Label
     Friend WithEvents Label9 As Label
@@ -289,4 +283,6 @@ Partial Class Abonos
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label11 As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
 End Class

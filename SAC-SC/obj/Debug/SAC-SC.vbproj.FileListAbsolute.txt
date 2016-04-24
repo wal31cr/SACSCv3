@@ -281,3 +281,7 @@ C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC
 C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
 C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
 C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
+C:\Users\Mao\Source\Repos\SACSCv3\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Mao\Source\Repos\SACSCv3\SAC-SC\obj\Debug\SAC-SC.exe
+C:\Users\Mao\Source\Repos\SACSCv3\SAC-SC\obj\Debug\SAC-SC.xml
+C:\Users\Mao\Source\Repos\SACSCv3\SAC-SC\obj\Debug\SAC-SC.pdb

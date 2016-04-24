@@ -43,6 +43,9 @@ Partial Class nuevoProductoFactura
         Me.Label_costo = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label_precioSugerido = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TextBox_precioVenta
@@ -122,13 +125,13 @@ Partial Class nuevoProductoFactura
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Calibri", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Label2.Location = New System.Drawing.Point(47, 32)
+        Me.Label2.Location = New System.Drawing.Point(199, 27)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(302, 25)
+        Me.Label2.Size = New System.Drawing.Size(279, 29)
         Me.Label2.TabIndex = 99
-        Me.Label2.Text = "Ingresando Productos Nuevos"
+        Me.Label2.Text = "Ingresar Productos Nuevos"
         '
         'Label7
         '
@@ -232,12 +235,28 @@ Partial Class nuevoProductoFactura
         Me.Label_precioSugerido.Size = New System.Drawing.Size(0, 17)
         Me.Label_precioSugerido.TabIndex = 111
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(204, 102)
+        Me.PictureBox2.TabIndex = 145
+        Me.PictureBox2.TabStop = False
+        '
+        'SkinEngine1
+        '
+        Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
+        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\Midsummer.ssk"
+        Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
+        '
         'nuevoProductoFactura
         '
         Me.AcceptButton = Me.Button_guardar
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(495, 422)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label_precioSugerido)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label_costo)
@@ -264,6 +283,7 @@ Partial Class nuevoProductoFactura
         Me.Name = "nuevoProductoFactura"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "nuevoProductoFactura"
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -288,4 +308,6 @@ Partial Class nuevoProductoFactura
     Friend WithEvents Label_costo As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label_precioSugerido As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
 End Class

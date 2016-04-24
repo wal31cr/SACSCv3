@@ -27,6 +27,7 @@ Partial Class InventarioCompras
         Me.Label3 = New System.Windows.Forms.Label()
         Me.ControlInventario = New System.Windows.Forms.Button()
         Me.Facturacion = New System.Windows.Forms.Button()
+        Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
         Me.SuspendLayout()
         '
         'Label2
@@ -67,6 +68,12 @@ Partial Class InventarioCompras
         Me.Facturacion.UseMnemonic = False
         Me.Facturacion.UseVisualStyleBackColor = True
         '
+        'SkinEngine1
+        '
+        Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
+        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\Midsummer.ssk"
+        Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
+        '
         'InventarioCompras
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -90,4 +97,5 @@ Partial Class InventarioCompras
     Friend WithEvents Label3 As Label
     Friend WithEvents ControlInventario As Button
     Friend WithEvents Facturacion As Button
+    Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
 End Class

@@ -33,7 +33,6 @@ Partial Class ProductoModificar
         Me.Button_guardar = New System.Windows.Forms.Button()
         Me.ComboBox_categoria = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox_precioVenta = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -48,13 +47,17 @@ Partial Class ProductoModificar
         Me.TextBox_UltiCompra = New System.Windows.Forms.Label()
         Me.TextBox_PenultCompra = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label_precioSugerido
         '
         Me.Label_precioSugerido.AutoSize = True
         Me.Label_precioSugerido.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label_precioSugerido.Location = New System.Drawing.Point(200, 266)
+        Me.Label_precioSugerido.Location = New System.Drawing.Point(200, 279)
         Me.Label_precioSugerido.Name = "Label_precioSugerido"
         Me.Label_precioSugerido.Size = New System.Drawing.Size(0, 17)
         Me.Label_precioSugerido.TabIndex = 129
@@ -63,7 +66,7 @@ Partial Class ProductoModificar
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(81, 266)
+        Me.Label8.Location = New System.Drawing.Point(81, 279)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(108, 15)
         Me.Label8.TabIndex = 128
@@ -73,7 +76,7 @@ Partial Class ProductoModificar
         '
         Me.Label_costo.AutoSize = True
         Me.Label_costo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label_costo.Location = New System.Drawing.Point(363, 308)
+        Me.Label_costo.Location = New System.Drawing.Point(363, 321)
         Me.Label_costo.Name = "Label_costo"
         Me.Label_costo.Size = New System.Drawing.Size(0, 17)
         Me.Label_costo.TabIndex = 127
@@ -82,7 +85,7 @@ Partial Class ProductoModificar
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(50, 232)
+        Me.Label6.Location = New System.Drawing.Point(50, 247)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(139, 15)
         Me.Label6.TabIndex = 126
@@ -99,7 +102,7 @@ Partial Class ProductoModificar
         '
         'TextBox_minStock
         '
-        Me.TextBox_minStock.Location = New System.Drawing.Point(203, 194)
+        Me.TextBox_minStock.Location = New System.Drawing.Point(203, 213)
         Me.TextBox_minStock.Name = "TextBox_minStock"
         Me.TextBox_minStock.Size = New System.Drawing.Size(301, 20)
         Me.TextBox_minStock.TabIndex = 101
@@ -108,7 +111,7 @@ Partial Class ProductoModificar
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(75, 194)
+        Me.Label4.Location = New System.Drawing.Point(75, 213)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(114, 15)
         Me.Label4.TabIndex = 123
@@ -129,7 +132,7 @@ Partial Class ProductoModificar
         '
         Me.ComboBox_categoria.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox_categoria.FormattingEnabled = True
-        Me.ComboBox_categoria.Location = New System.Drawing.Point(203, 343)
+        Me.ComboBox_categoria.Location = New System.Drawing.Point(203, 356)
         Me.ComboBox_categoria.Name = "ComboBox_categoria"
         Me.ComboBox_categoria.Size = New System.Drawing.Size(301, 24)
         Me.ComboBox_categoria.TabIndex = 104
@@ -138,28 +141,17 @@ Partial Class ProductoModificar
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(120, 346)
+        Me.Label7.Location = New System.Drawing.Point(120, 359)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(69, 15)
         Me.Label7.TabIndex = 122
         Me.Label7.Text = "Categoria"
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Label2.Location = New System.Drawing.Point(48, 36)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(203, 25)
-        Me.Label2.TabIndex = 121
-        Me.Label2.Text = "Modificar Productos"
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(91, 91)
+        Me.Label1.Location = New System.Drawing.Point(91, 116)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(98, 15)
         Me.Label1.TabIndex = 120
@@ -168,7 +160,7 @@ Partial Class ProductoModificar
         'TextBox_precioVenta
         '
         Me.TextBox_precioVenta.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox_precioVenta.Location = New System.Drawing.Point(203, 307)
+        Me.TextBox_precioVenta.Location = New System.Drawing.Point(203, 320)
         Me.TextBox_precioVenta.Name = "TextBox_precioVenta"
         Me.TextBox_precioVenta.Size = New System.Drawing.Size(301, 23)
         Me.TextBox_precioVenta.TabIndex = 103
@@ -177,7 +169,7 @@ Partial Class ProductoModificar
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(103, 308)
+        Me.Label5.Location = New System.Drawing.Point(103, 321)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(86, 15)
         Me.Label5.TabIndex = 119
@@ -187,7 +179,7 @@ Partial Class ProductoModificar
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(66, 161)
+        Me.Label3.Location = New System.Drawing.Point(66, 180)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(123, 15)
         Me.Label3.TabIndex = 118
@@ -195,7 +187,7 @@ Partial Class ProductoModificar
         '
         'TextBox_NombreP
         '
-        Me.TextBox_NombreP.Location = New System.Drawing.Point(203, 128)
+        Me.TextBox_NombreP.Location = New System.Drawing.Point(203, 147)
         Me.TextBox_NombreP.Name = "TextBox_NombreP"
         Me.TextBox_NombreP.Size = New System.Drawing.Size(301, 20)
         Me.TextBox_NombreP.TabIndex = 100
@@ -204,7 +196,7 @@ Partial Class ProductoModificar
         '
         Me.Label_2.AutoSize = True
         Me.Label_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label_2.Location = New System.Drawing.Point(70, 128)
+        Me.Label_2.Location = New System.Drawing.Point(70, 147)
         Me.Label_2.Name = "Label_2"
         Me.Label_2.Size = New System.Drawing.Size(119, 15)
         Me.Label_2.TabIndex = 117
@@ -213,7 +205,7 @@ Partial Class ProductoModificar
         'TextBox_stock
         '
         Me.TextBox_stock.Enabled = False
-        Me.TextBox_stock.Location = New System.Drawing.Point(203, 161)
+        Me.TextBox_stock.Location = New System.Drawing.Point(203, 180)
         Me.TextBox_stock.Name = "TextBox_stock"
         Me.TextBox_stock.Size = New System.Drawing.Size(301, 20)
         Me.TextBox_stock.TabIndex = 130
@@ -233,7 +225,7 @@ Partial Class ProductoModificar
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(323, 268)
+        Me.Label9.Location = New System.Drawing.Point(323, 281)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(64, 15)
         Me.Label9.TabIndex = 133
@@ -241,7 +233,7 @@ Partial Class ProductoModificar
         '
         'TextBox_porcentaje
         '
-        Me.TextBox_porcentaje.Location = New System.Drawing.Point(393, 269)
+        Me.TextBox_porcentaje.Location = New System.Drawing.Point(393, 282)
         Me.TextBox_porcentaje.Name = "TextBox_porcentaje"
         Me.TextBox_porcentaje.Size = New System.Drawing.Size(111, 20)
         Me.TextBox_porcentaje.TabIndex = 102
@@ -250,7 +242,7 @@ Partial Class ProductoModificar
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(299, 236)
+        Me.Label10.Location = New System.Drawing.Point(299, 247)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(109, 15)
         Me.Label10.TabIndex = 136
@@ -260,7 +252,7 @@ Partial Class ProductoModificar
         '
         Me.TextBox_UltiCompra.AutoSize = True
         Me.TextBox_UltiCompra.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox_UltiCompra.Location = New System.Drawing.Point(200, 236)
+        Me.TextBox_UltiCompra.Location = New System.Drawing.Point(200, 243)
         Me.TextBox_UltiCompra.Name = "TextBox_UltiCompra"
         Me.TextBox_UltiCompra.Size = New System.Drawing.Size(0, 17)
         Me.TextBox_UltiCompra.TabIndex = 138
@@ -278,16 +270,43 @@ Partial Class ProductoModificar
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(200, 266)
+        Me.Label11.Location = New System.Drawing.Point(200, 279)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(0, 17)
         Me.Label11.TabIndex = 140
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(204, 102)
+        Me.PictureBox2.TabIndex = 146
+        Me.PictureBox2.TabStop = False
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Calibri", 36.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
+        Me.Label2.Location = New System.Drawing.Point(199, 27)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(218, 59)
+        Me.Label2.TabIndex = 147
+        Me.Label2.Text = "Modificar"
+        '
+        'SkinEngine1
+        '
+        Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
+        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\Midsummer.ssk"
+        Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
         '
         'ProductoModificar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(552, 457)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.TextBox_PenultCompra)
         Me.Controls.Add(Me.TextBox_UltiCompra)
@@ -306,7 +325,6 @@ Partial Class ProductoModificar
         Me.Controls.Add(Me.Button_guardar)
         Me.Controls.Add(Me.ComboBox_categoria)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox_precioVenta)
         Me.Controls.Add(Me.Label5)
@@ -317,6 +335,7 @@ Partial Class ProductoModificar
         Me.MaximizeBox = False
         Me.Name = "ProductoModificar"
         Me.Text = "ProductoModificar"
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -332,7 +351,6 @@ Partial Class ProductoModificar
     Friend WithEvents Button_guardar As Button
     Friend WithEvents ComboBox_categoria As ComboBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents TextBox_precioVenta As TextBox
     Friend WithEvents Label5 As Label
@@ -347,4 +365,7 @@ Partial Class ProductoModificar
     Friend WithEvents TextBox_UltiCompra As Label
     Friend WithEvents TextBox_PenultCompra As Label
     Friend WithEvents Label11 As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
 End Class

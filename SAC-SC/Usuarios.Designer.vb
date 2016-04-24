@@ -27,14 +27,16 @@ Partial Class Usuarios
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Btn_agregar = New System.Windows.Forms.Button()
         Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Btn_menuPrincipal = New System.Windows.Forms.Button()
         Me.Enviar_correo = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Btn_eliminar = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label8
@@ -57,16 +59,6 @@ Partial Class Usuarios
         Me.ListView1.Name = "ListView1"
         Me.ToolTip1.SetToolTip(Me.ListView1, resources.GetString("ListView1.ToolTip"))
         Me.ListView1.UseCompatibleStateImageBehavior = False
-        '
-        'Label2
-        '
-        resources.ApplyResources(Me.Label2, "Label2")
-        Me.Label2.Name = "Label2"
-        '
-        'Label1
-        '
-        resources.ApplyResources(Me.Label1, "Label1")
-        Me.Label1.Name = "Label1"
         '
         'Btn_menuPrincipal
         '
@@ -97,10 +89,29 @@ Partial Class Usuarios
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+        'Label2
+        '
+        resources.ApplyResources(Me.Label2, "Label2")
+        Me.Label2.Name = "Label2"
+        '
+        'PictureBox2
+        '
+        resources.ApplyResources(Me.PictureBox2, "PictureBox2")
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.TabStop = False
+        '
+        'SkinEngine1
+        '
+        Me.SkinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA=="
+        Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\Midsummer.ssk"
+        Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
+        '
         'Usuarios
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Enviar_correo)
@@ -108,10 +119,9 @@ Partial Class Usuarios
         Me.Controls.Add(Me.Btn_eliminar)
         Me.Controls.Add(Me.Btn_agregar)
         Me.Controls.Add(Me.ListView1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Btn_menuPrincipal)
         Me.Name = "Usuarios"
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -120,12 +130,13 @@ Partial Class Usuarios
     Friend WithEvents Label8 As Label
     Friend WithEvents Btn_agregar As Button
     Friend WithEvents ListView1 As ListView
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents Btn_menuPrincipal As Button
     Friend WithEvents Enviar_correo As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Btn_eliminar As Button
     Friend WithEvents ToolTip1 As ToolTip
     Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
 End Class
