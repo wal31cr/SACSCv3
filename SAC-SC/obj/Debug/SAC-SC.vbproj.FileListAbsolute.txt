@@ -321,3 +321,4 @@ C:\Users\Mao\Source\Repos\SACSCv3\SAC-SC\obj\Debug\SAC_SC.Usuarios.resources
 C:\Users\Mao\Source\Repos\SACSCv3\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
 C:\Users\Mao\Source\Repos\SACSCv3\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
 C:\Users\Mao\Source\Repos\SACSCv3\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
+C:\Users\Mao\Source\Repos\SACSCv3\SAC-SC\obj\Debug\SAC-SC.vbproj.ResolveComReference.cache

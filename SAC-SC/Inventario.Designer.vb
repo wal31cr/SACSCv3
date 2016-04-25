@@ -34,6 +34,8 @@ Partial Class Inventario
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -146,11 +148,22 @@ Partial Class Inventario
         Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\MidsummerColor1.ssk"
         Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
         '
+        'Button1
+        '
+        Me.Button1.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Button1.Location = New System.Drawing.Point(12, 461)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(57, 23)
+        Me.Button1.TabIndex = 151
+        Me.Button1.Text = "Exportar"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Inventario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(859, 515)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Btn_menuPrincipal)
@@ -181,4 +194,6 @@ Partial Class Inventario
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
+    Friend WithEvents Button1 As Button
+    Friend WithEvents SaveFileDialog1 As SaveFileDialog
 End Class

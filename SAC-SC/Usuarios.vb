@@ -1,5 +1,7 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
+
+
 Public Class Usuarios
     Dim sortColumn As Integer = -1
 
@@ -377,6 +379,65 @@ Public Class Usuarios
             ListView1.Items(i).Checked = seleccionar
         Next
     End Sub
+
+    Private Sub Button1_Click_2(sender As Object, e As EventArgs) Handles Button1.Click
+        SaveFileDialog1.Filter = "Archivos CSV (*.csv)|*.csv|Todos los archivos (*.*)|*.*"
+        SaveFileDialog1.FilterIndex = 1
+        SaveFileDialog1.DefaultExt = "csv"
+        Dim todaysdate As String = String.Format("{0:dd.MM.yyyy}", DateTime.Now)
+        SaveFileDialog1.FileName = Me.Text + todaysdate
+        SaveFileDialog1.OverwritePrompt = True
+        SaveFileDialog1.Title = "Guardar eventos Google Calendar"
+        If SaveFileDialog1.ShowDialog Then
+            exportarListViewCSV(ListView1, SaveFileDialog1.FileName)
+        End If
+    End Sub
+
+    'Exportar contenido ListView a formato CSV 
+    'para abrir con Microsoft Office Excel, OppenOffice Calc o con 
+    Private Sub exportarListViewCSV(ByVal lstview As ListView, ByVal ficheroCSV As String)
+        Dim lineasCSV As New System.Text.StringBuilder
+        Dim lineaActual As String = String.Empty
+
+        'Escribir nombre de columnas y encabezados en la variable temporal
+        For columnIndex As Int32 = 0 To lstview.Columns.Count - 1
+            lineaActual &= (String.Format("{0};", lstview.Columns(columnIndex).Text))
+        Next
+
+        'Quitar la coma final
+        lineasCSV.AppendLine(lineaActual.Substring(0, lineaActual.Length - 1))
+        lineaActual = String.Empty
+
+        'Escribir los datos del ListView en la variable temporal
+        For Each item As ListViewItem In lstview.Items
+            For Each subItem As ListViewItem.ListViewSubItem In item.SubItems
+                lineaActual &= (String.Format("{0};", subItem.Text))
+            Next
+
+            'Quitar coma final
+            lineasCSV.AppendLine(lineaActual.Substring(0, lineaActual.Length - 1))
+            lineaActual = String.Empty
+        Next
+
+        'Guardar datos variable temporal a fichero CSV
+        Dim Sys As New System.IO.StreamWriter(ficheroCSV)
+        Sys.WriteLine(lineasCSV.ToString)
+        Sys.Flush()
+        Sys.Dispose()
+    End Sub
+
+    Private Sub releaseObject(ByVal obj As Object)
+        'Release an automation object
+        Try
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(obj)
+            obj = Nothing
+        Catch ex As Exception
+            obj = Nothing
+        Finally
+            GC.Collect()
+        End Try
+    End Sub
+
 End Class
 
 Class ListViewItemComparer

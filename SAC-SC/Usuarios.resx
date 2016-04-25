@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Btn_agregar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -178,7 +178,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Btn_agregar.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="ListView1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -209,7 +209,7 @@ seleccionado.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ListView1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="Btn_menuPrincipal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -239,7 +239,7 @@ seleccionado.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Btn_menuPrincipal.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="Enviar_correo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -248,7 +248,7 @@ seleccionado.</value>
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="Enviar_correo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 460</value>
+    <value>597, 461</value>
   </data>
   <data name="Enviar_correo.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 42</value>
@@ -269,7 +269,7 @@ seleccionado.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Enviar_correo.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="TextBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>97, 131</value>
@@ -290,7 +290,7 @@ seleccionado.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TextBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="Btn_eliminar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -323,7 +323,7 @@ seleccionado.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Btn_eliminar.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="CheckBox1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -350,7 +350,7 @@ seleccionado.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CheckBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -380,7 +380,7 @@ seleccionado.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="PictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -734,7 +734,7 @@ seleccionado.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <metadata name="SkinEngine1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>143, 17</value>
@@ -744,7 +744,7 @@ seleccionado.</value>
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAAP4wAAD+MAAAAAEAAQoPAgAAAP4wAAACU0sDBBQAAAAIAK5xdzQ5pAC5hDAA
+        AQEBCQIAAAAAAAAA/jAAAP4wAAD+MAAAAAEAAQoPAgAAAP4wAAACU0sDBBQAAAAIAK5xdzQ5pAC5hDAA
         AE+oAQAMAAAAU0tJTkRBVEEuU0sy7H0LgBNFum7hnrO7uu5d773ruWcfd/fuuevu2fXuuCsugkEew3Pk
         MTxmYADZ1VVcoqIiKDEhvAICgTC8xpZRQCUERXRctZBd8LGIM7wUEEVeAoI85pFMHp1JZkBy/6rq7lTS
         3ZkO5DBj7I8vleq///rrq+rq7upikgwvHVw0vLhvyZ+HD7j53xFCV8GLvA8fUDT45j+XFJUM7FPYc9gf
@@ -956,6 +956,33 @@ seleccionado.</value>
         AAAAAAAAAFNLSU5EQVRBLlNLMlBLBQYAAAAAAQABADoAAACuMAAAAAAL
 </value>
   </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 460</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="SaveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>269, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2161,6 +2188,12 @@ seleccionado.</value>
   </data>
   <data name="&gt;&gt;SkinEngine1.Type" xml:space="preserve">
     <value>Sunisoft.IrisSkin.SkinEngine, IrisSkin2, Version=2006.3.22.45, Culture=neutral, PublicKeyToken=f4d76dd8d689a256</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialog1.Name" xml:space="preserve">
+    <value>SaveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;SaveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Usuarios</value>

@@ -36,6 +36,8 @@ Partial Class Distribuidores
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.StatusStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -175,11 +177,23 @@ Partial Class Distribuidores
         Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\MidsummerColor1.ssk"
         Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
         '
+        'Button3
+        '
+        Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Button3.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Button3.Location = New System.Drawing.Point(14, 501)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(57, 23)
+        Me.Button3.TabIndex = 151
+        Me.Button3.Text = "Exportar"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Distribuidores
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(859, 556)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.StatusStrip1)
@@ -220,4 +234,6 @@ Partial Class Distribuidores
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
+    Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents Button3 As Button
 End Class

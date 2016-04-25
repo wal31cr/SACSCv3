@@ -36,6 +36,8 @@ Partial Class Usuarios
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.SkinEngine1 = New Sunisoft.IrisSkin.SkinEngine(CType(Me, System.ComponentModel.Component))
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -106,10 +108,17 @@ Partial Class Usuarios
         Me.SkinEngine1.SkinFile = "C:\Users\Mao\Source\Repos\SACSCv3\MidsummerColor1.ssk"
         Me.SkinEngine1.SkinStreamMain = CType(resources.GetObject("SkinEngine1.SkinStreamMain"), System.IO.Stream)
         '
+        'Button1
+        '
+        resources.ApplyResources(Me.Button1, "Button1")
+        Me.Button1.Name = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Usuarios
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.CheckBox1)
@@ -139,4 +148,6 @@ Partial Class Usuarios
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents SkinEngine1 As Sunisoft.IrisSkin.SkinEngine
+    Friend WithEvents Button1 As Button
+    Friend WithEvents SaveFileDialog1 As SaveFileDialog
 End Class
