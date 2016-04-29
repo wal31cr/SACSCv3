@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class DistDetalle
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class DistDetalle
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DistDetalle))
         Me.Label13 = New System.Windows.Forms.Label()
@@ -42,6 +42,9 @@ Partial Class DistDetalle
         Me.lblDetalle = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.btnCerrar = New System.Windows.Forms.Button()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label13
@@ -162,6 +165,7 @@ Partial Class DistDetalle
         Me.lvDetalles.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lvDetalles.CheckBoxes = True
         Me.lvDetalles.FullRowSelect = True
         Me.lvDetalles.Location = New System.Drawing.Point(478, 224)
         Me.lvDetalles.Margin = New System.Windows.Forms.Padding(4)
@@ -258,18 +262,35 @@ Partial Class DistDetalle
         'btnCerrar
         '
         Me.btnCerrar.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.btnCerrar.Location = New System.Drawing.Point(17, 586)
+        Me.btnCerrar.Location = New System.Drawing.Point(17, 561)
         Me.btnCerrar.Name = "btnCerrar"
         Me.btnCerrar.Size = New System.Drawing.Size(143, 58)
         Me.btnCerrar.TabIndex = 105
         Me.btnCerrar.Text = "Volver"
         Me.btnCerrar.UseVisualStyleBackColor = True
         '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 647)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(1307, 25)
+        Me.StatusStrip1.TabIndex = 106
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'ToolStripStatusLabel1
+        '
+        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(459, 20)
+        Me.ToolStripStatusLabel1.Text = "Haga doble click sobre una factura si desea elminarla o modificarla."
+        '
         'DistDetalle
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1307, 672)
+        Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.btnCerrar)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.lblDetalle)
@@ -295,6 +316,8 @@ Partial Class DistDetalle
         Me.MinimizeBox = False
         Me.Name = "DistDetalle"
         Me.Text = "Detalle Distribuidor"
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -319,4 +342,6 @@ Partial Class DistDetalle
     Friend WithEvents lblDetalle As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents btnCerrar As Button
+    Friend WithEvents StatusStrip1 As StatusStrip
+    Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
 End Class

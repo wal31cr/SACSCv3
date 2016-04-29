@@ -76,7 +76,7 @@ Public Class Distribuidores
 
     Private Sub cargardgv(col, filtro)
         lvDistribuidores.Items.Clear()
-        Dim query As String = "select * from distribuidor where " & col & " like '%" & filtro & "%'"
+        Dim query As String = "select * from distribuidor where " & col & " like '%" & filtro & "%' order by id_distribuidor"
         Dim fila(5) As String
         Dim comm As New SqlCommand(query, oconexion)
         Dim datar As SqlDataReader

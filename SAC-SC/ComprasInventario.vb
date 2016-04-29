@@ -13,13 +13,41 @@ Public Class ComprasInventario
     Dim cambioPrecio As Boolean = False
     Dim productoNuevo As Boolean = False
     Dim lockThis As New Object
+    Dim filaM As ListViewItem
+    Public Sub New(ByVal fila As ListViewItem)
+        ' This call is required by the designer.
+        InitializeComponent()
+        ' Add any initialization after the InitializeComponent() call.
+        filaM = fila
+    End Sub
 
+    Public Sub New()
+        ' This call is required by the designer.
+        InitializeComponent()
+        filaM = New ListViewItem()
+        ' Add any initialization after the InitializeComponent() call.
+    End Sub
+    Dim modf As Integer
     'Dim Sql_ProductoID As String = "Select TOP 1 [descripcion] FROM [SACSC].[dbo].[producto] WHERE producto.id_producto = '0000000020'"
     Private Sub ComprasInventario_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        modf = 0
         llenarComboBox()
         inicializarFecha()
         inicializarListViewFlotante()
         inicializarListView_Detalles()
+
+        If filaM.SubItems.Count() > 2 Then
+            modf = 1
+            TextBox_factura.Text = filaM.SubItems(1).Text
+            ComboBox_distribuidor.SelectedIndex = filaM.SubItems(2).Text
+            Date_Fecha.Text = filaM.SubItems(4).Text
+            If filaM.SubItems(5).Text <> "" Then 'si tiene anotaciones convierte a sin detalle y muestra la info
+                ComboBox_tipoFactura.SelectedIndex = 1
+                TextBox_descripcion.Text = filaM.SubItems(5).Text
+                TextBox_totalFSD.Text = filaM.SubItems(3).Text
+            End If
+        End If
+
     End Sub
 
     Private Sub llenarComboBox()
@@ -220,8 +248,12 @@ Public Class ComprasInventario
         Me.Close()
     End Sub
     Private Sub ComprasInventario_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.Closing
-        MenuPrincipal.Show()
-        Me.Hide()
+        If modf = 0 Then
+            MenuPrincipal.Show()
+            Me.Hide()
+        Else
+            '' aca deberia de haber un load para distdetalle
+        End If
     End Sub
     Private Sub ComboBox_tipoFactura_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox_tipoFactura.SelectedIndexChanged
         If ComboBox_tipoFactura.SelectedIndex = 1 Then
@@ -562,7 +594,7 @@ Public Class ComprasInventario
         '@factura_compra, @distribuidor, @total , @fecha_compra, @anotaciones
         Dim comd As New SqlCommand(sql_GuardarFac, oconexion)
         comd.Parameters.AddWithValue("@factura_compra", TextBox_factura.Text)
-        comd.Parameters.AddWithValue("@distribuidor", (ComboBox_distribuidor.SelectedIndex + 1))
+        comd.Parameters.AddWithValue("@distribuidor", (ComboBox_distribuidor.SelectedIndex))
         comd.Parameters.AddWithValue("@fecha_compra", Date_Fecha.Value)
 
         'Dim transaccion As SqlTransaction
@@ -602,22 +634,26 @@ Public Class ComprasInventario
                 MsgBox("Los productos resaltados en rojo cambiaron de costo respecto a la ultima compra, por favor" +
                        " revise los precios de venta", MsgBoxStyle.Exclamation)
             End If
-            If (MessageBox.Show("¿Desea ingresar otra factura?", Me.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes) Then
-                limpiar()
-                ComboBox_tipoFactura.Enabled = True
-                ComboBox_tipoFactura.SelectedIndex = -1
-                ComboBox_distribuidor.SelectedIndex = -1
-                ocultar_facturaDetallada()
-                ocultar_facturaSinDetalle()
-                inicializarListViewFlotante()
-                inicializarListView_Detalles()
-                TextBox_factura.Text = ""
+            If modf = 0 Then
+                If (MessageBox.Show("¿Desea ingresar otra factura?", Me.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Information) = DialogResult.Yes) Then
+                    limpiar()
+                    ComboBox_tipoFactura.Enabled = True
+                    ComboBox_tipoFactura.SelectedIndex = -1
+                    ComboBox_distribuidor.SelectedIndex = -1
+                    ocultar_facturaDetallada()
+                    ocultar_facturaSinDetalle()
+                    inicializarListViewFlotante()
+                    inicializarListView_Detalles()
+                    TextBox_factura.Text = ""
 
+                Else
+                    MenuPrincipal.Show()
+                    Me.Close()
+                End If
             Else
-                MenuPrincipal.Show()
+                MsgBox("Datos actualizados correctamente!", MsgBoxStyle.Information, "SAC-SC Compras")
                 Me.Close()
             End If
-
         Else
             If ComboBox_tipoFactura.SelectedIndex = 0 Then
                 MsgBox("Complete todos los campos solicitados, debe de existir al menos un articulo en la lista de detalles de compra", MsgBoxStyle.Critical)
@@ -625,6 +661,7 @@ Public Class ComprasInventario
                 MsgBox("Complete todos los campos solicitados", MsgBoxStyle.Critical)
             End If
         End If
+
 
     End Sub
     Private Sub CheckBox_excento_keyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles CheckBox_excento.KeyDown

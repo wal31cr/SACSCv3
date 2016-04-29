@@ -281,3 +281,42 @@ C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC
 C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
 C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
 C:\Users\Walter\Documents\Visual Studio 2015\Projects\SACSC\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\bin\Debug\SAC-SC.exe.config
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC-SC.exe
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC-SC.xml
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC-SC.pdb
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\bin\Debug\SAC-SC.exe
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\bin\Debug\SAC-SC.pdb
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\bin\Debug\SAC-SC.xml
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.Abonos.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.AbonosExito.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.ComprasInventario.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.DistDetalle.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.Distribuidores.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.DistribuidoresAgregar.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.DistribuidoresModificar.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.EnviarCorreo.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.FacturacionAbono.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.FacturacionCliente.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.FacturacionCredito.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.FacturacionCreditoBloqueado.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.FacturacionEfectivo.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.FacturacionFactura.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.FacturacionInsertarCodigo.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.FacturacionProducto.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.FacturacionTipo.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.InventarioCompras.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.ModificarOrdenCliente.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.nuevoProductoFactura.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.ProductoModificar.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.UsuariosDetalle.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.Inicio.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.Inventario.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.MenuPrincipal.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.Facturacion.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.Resources.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.Usuarios.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.UsuariosAgregar.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC_SC.UsuariosModificar.resources
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC-SC.vbproj.GenerateResource.Cache
+C:\Users\Walter\Documents\GitHub\SACSCv3\SAC-SC\obj\Debug\SAC-SC.vbprojResolveAssemblyReference.cache
